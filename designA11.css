@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+}
+.entete{
+   text-align: center;
+    width:100%;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: black;
+    position: relative;
+    color:white;
+}
+.logo{
+    position: absolute;
+    width:5%;
+    height: 100%;
+    left:0px;
+}
+.main{
+    width:100%;
+    height: 100%;
+    background-color: rgba(19, 109, 121, 0.3);
+}
+.conteneur{
+    margin:auto;
+    margin-top: -1.5rem;
+    margin-top:2px;
+    width: 75%;
+    height: 37rem;
+    background-image: url(../IMG/img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.contain{
+    padding-top: 4rem;
+  width:65%;
+  height: 50%;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+}
+.enteteForm{
+    width:100%;
+    background-color: rgb(79, 181, 209);
+    height: 12%;
+    margin-top: -4rem; 
+    margin-bottom: 2rem;
+    color: white;
+  padding-top:10px;
+    font-size:17px;
+}
+h4,.styleAd2{
+    margin-left:15px;
+    display: inline;
+}
+.style{
+    text-align: center;
+}
+.formul{
+    margin-left: 10rem;
+}
+.input{
+    width:80%;
+    height: 90%;
+    margin-bottom: 10px;
+    border: transparent solid 1px;
+}
+.input:active{
+    border: 1px solid transparent;
+}
+.chps{
+    border:1px solid gray;
+    width:70%;
+    height: 3rem;
+    background-color: rgb(7, 32, 39);
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 2px 1px rgb(93, 182, 207);
+}
+.img{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.bouton{
+    width:6rem;
+    height: 2.5rem;
+    background-color: rgb(96, 171, 192);
+    border:1px solid rgb(96, 171, 192);
+    color:white;
+    border-radius: 5px;
+}
+.bouton:hover{
+    cursor: pointer;
+}
+.inscription{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+}
+.icon1{
+    background-color: white;
+    border-radius: 6px;
+    float: right;
+    transform: rotate(45deg);
+    margin-right: 5px;
+    width: 4%;
+}
+.styeAd1{
+    width: 95%;
+    height: 73%;
+    background-color: rgb(241, 244, 245);
+}
+.section1,.section2{
+    float: left;
+}
+.section1{
+    width:40%;
+    height:80%;
+    border: 1px solid red;
+    margin-right: 1.5rem;
+    background-color: white;
+}
+.section1_1{
+    width:100%;
+    height:35%;
+    background-color: rgb(93, 182, 207);
+    padding-top: 10px;
+    position:relative;
+}
+.section2{
+    margin-top: -2rem;
+    width:55%;
+    height: 95%;
+    border:1px solid yellow;
+    background-color: white;
+}
+.section2_1{
+    width:95%;
+    height: 80%;
+    border:1px solid rgb(233, 225, 217);
+    margin: auto;
+    margin-top: 2.5rem; 
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+.section2_2{
+    width:100%;
+    height: 8%;
+    background-color: rgb(233, 225, 217);
+}
+li{
+    list-style: none;
+    margin-bottom: 2rem;
+    color:rgb(106, 107, 107);
+    font-size: 17px;
+}
+.icon2,.icon3,.icon4,.icon5{
+    display: block;
+    border: 1px solid red;
+    width:21px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+.icon2{
+    background-image: url(../IMG/Icones/ic-liste.png);
+}
+.styleAd3:focus{
+    background-image: url(../IMG/Icones/ic-liste-active.png);
+}
+/* .icon3{
+    background-image: url(../IMG/Icones/ic-ajout.png);
+} */
+.icon4{
+    background-image: url(../IMG/Icones/ic-liste.png);
+}
+.icon5{
+    background-image: url(../IMG/Icones/ic-ajout.png);
+}
+.ereur{
+    width:100%;
+    height: 5%;
+    background-color:red;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* display: none; */
+    /* display: visible; */
+}
+.deconnect{
+    background-color: rgb(104, 235, 235);
+    border: 1px solid rgb(69, 216, 216);
+    border-top: 1px solid rgb(243, 250, 249);
+    width:8rem;
+    height: 25px;
+    color: white;
+    text-align: center;
+    /* margin-left: 7rem; */
+    float: right;
+    margin-right: 2rem;
+    border-radius: 2px;
+    cursor:pointer;
+}
+.profil{
+    border:1px solid white;
+    width:30%;
+    height: 80%;
+    border-radius: 50%;
+  margin-left: 15px;
+}
+.photoProfil{
+    width:100%;
+    height:100%;
+    border-radius:50%
+}
+.profilJoueur{
+    border:1px solid white;
+    width:7%;
+    height: 80%;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+.bienvenu{
+    display:inline-block;
+    width:70%;
+    height: 100%;
+    margin-top: -5px;
+    margin-left: -3rem;
+}
+.btnDec{
+    float: right;
+}
+.espaceJoueur{
+    width:96%;
+    height: 97%;
+    margin: auto;
+    border:1px solid yellow;
+    background-color: white;
+    margin-top:-25px;
+    border-radius: 5px;
+}
+.zoneGauche{
+    border: 1px solid rgb(93, 182, 207);
+    width:65%;
+    height: 90%;
+    float: left;
+    margin: 7px;
+    border-radius: 10px;
+}
+.zoneDroite{
+    width:25%;
+    height: 70%;
+    box-shadow:2px 2px 3px 3px rgb(115, 121, 122);
+    float: right;
+    margin-top: 2rem;
+    margin-right: 20px;
+}
+.espaceInscript{
+    height: 70%;
+}
+.prenomAdmin,.nomAdmin{
+    width:10rem;
+    height: 1rem;
+    position: absolute;
+    color: white;
+}
+.prenomAdmin{
+    left:8rem;
+    bottom:5rem
+}
+.nomAdmin{
+    left:10.5rem;
+    bottom:4rem;
+}
+.monForm{
+    margin-top: -1.7rem;
+}
+.nomJoueur{
+    width:9rem;
+    height: 12px;
+    margin-top: 2.2rem;
+    float: left;
+    margin-left:-4.5rem;
+    font-size: 13px;
+    text-align:left;
+}
+.ereur1{
+    color:red;
+}
