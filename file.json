@@ -1,9 +1,0 @@
-{"admin":[
-    { "nom":"Dione", "prenom":"Ndeye Saly", "login":"Lissa", "password":"saly2020", "photo":"../asset/IMG/salyTof.jpg" },
-    { "nom":"Dione", "prenom":"Gallas", "login":"Lasga", "password":"gallas2020", "photo":"../asset/IMG/gallasTof.jpg" }
-  ],
-  "joueur":[
-    { "nom":"Gning", "prenom":"Papa Youssou", "login":"Mignon", "password":"mignon2020", "photo":"../asset/IMG/mignonTof.jpg" },
-    { "nom":"Dione", "prenom":"Lissa", "login":"Saly", "password":"saly123", "photo":"../asset/IMG/lissa.jpg" }
-  ]
-}
